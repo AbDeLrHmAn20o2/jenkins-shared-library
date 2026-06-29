@@ -1,4 +1,3 @@
-def call() {
-    echo "========== DEPLOY =========="
-    echo "Deploying Application..."
+def call(String environment) {
+    echo "Deploying to ${environment}"
 }
