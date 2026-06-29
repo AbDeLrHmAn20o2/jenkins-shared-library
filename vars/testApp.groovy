@@ -1,4 +1,3 @@
-def call() {
-    echo "========== TEST =========="
-    echo "Running Tests..."
+def call(String appName) {
+    echo "Testing ${appName}"
 }
