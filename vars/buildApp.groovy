@@ -1,4 +1,5 @@
-def call() {
-    echo "========== BUILD =========="
-    echo "Building Application..."
+def call(String appName) {
+    echo "========================"
+    echo "Building ${appName}"
+    echo "========================"
 }
